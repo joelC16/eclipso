@@ -79,7 +79,7 @@ export default function CardSlider() {
                             ))}
                         </div>
                         <blockquote className="text-xl text-responsiveparagraph font-normal overflow-y-auto max-h-[200px] scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100">
-                            "{testimonials[card].quote}"
+                        &quot;{testimonials[card].quote}&quot;
                         </blockquote>
                         <div className="flex items-center justify-between w-[90%] gap-2 absolute bottom-6 left-6">
                             <div className="inline-flex items-center px-3 py-2 rounded-full bg-[#E1FF7E] text-black">

@@ -1,12 +1,6 @@
 "use client"
-import Nav from "@/components/nav";
-import Image from "next/image";
 
 import RegularButton from "./regularButton";
-import Carousel from "./workCarousel";
-import { useCounterEffect } from "@/hooks/useTextAnimation";
-import { Badge } from "./ui/badge";
-import { AcordionQA } from "./acordionQA";
 import { TiStarburst } from "react-icons/ti";
 
 export default function Booking() {
@@ -20,7 +14,7 @@ export default function Booking() {
                     <p className="text-white">Booking Q1 & Q2</p>
                 </div>
                 <h2 className="w-[90%] text-responsiveTitle text-center leading-none">Let’s Collab</h2>
-                <p className="w-[40%] text-responsiveparagraph text-center max-800:w-[80%]">Fill our form, book a call or contact us via email and let's see if we are good fit!</p>
+                <p className="w-[40%] text-responsiveparagraph text-center max-800:w-[80%]">Fill our form, book a call or contact us via email and let&apos;s see if we are good fit!</p>
                 <RegularButton width="w-64" bgColor="bg-white" title="Book a call" bgArrow="bg-black" colorArrow="text-white" textColor="text-black"></RegularButton>
 
             </div>

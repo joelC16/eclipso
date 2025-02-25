@@ -7,7 +7,6 @@ import Pricing from "@/components/pricing";
 import Questions from "@/components/questions";
 import Testimonies from "@/components/testimonies";
 import Work from "@/components/work";
-import Image from "next/image";
 
 export default function Home() {
   return (

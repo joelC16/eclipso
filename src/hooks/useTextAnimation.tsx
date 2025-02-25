@@ -94,7 +94,7 @@ const useHoverEffect = () => {
     useEffect(() => {
       if (!counterRef.current) return;
   
-      let obj = { count: 0 };
+      const obj = { count: 0 };
   
       gsap.to(obj, {
         count: 50,

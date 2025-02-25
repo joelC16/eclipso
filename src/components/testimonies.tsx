@@ -1,11 +1,6 @@
 "use client"
-import Nav from "@/components/nav";
 import Image from "next/image";
 
-import RegularButton from "./regularButton";
-import { useCounterEffect } from "@/hooks/useTextAnimation";
-import { TiStarburst } from "react-icons/ti";
-import { IoCheckmark } from "react-icons/io5";
 import TestimonialCarousel from "./testimonial-carousel";
 
 export default function Testimonies() {

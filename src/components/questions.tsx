@@ -1,11 +1,6 @@
 "use client"
-import Nav from "@/components/nav";
-import Image from "next/image";
 
 import RegularButton from "./regularButton";
-import Carousel from "./workCarousel";
-import { useCounterEffect } from "@/hooks/useTextAnimation";
-import { Badge } from "./ui/badge";
 import { AcordionQA } from "./acordionQA";
 
 export default function Questions() {

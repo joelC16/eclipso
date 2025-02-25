@@ -1,5 +1,4 @@
 "use client"
-import Nav from "@/components/nav";
 import Image from "next/image";
 
 import RegularButton from "./regularButton";
@@ -27,7 +26,7 @@ export default function About() {
             <h1 className="text-responsiveSubTitle w-1/2 leading-none">Givebacks</h1>
             <Image src={"/images/comillas.svg"} width={50} height={50} alt="Comentarios"></Image>
           </div>
-          <p className="text-responsiveparagraph mt-auto">"We needed an agency to help us manage our four Webflow and began working with Eclipso. They are a fantastic and we're so glad."</p>
+          <p className="text-responsiveparagraph mt-auto">We needed an agency to help us manage our four Webflow and began working with Eclipso. They are a fantastic and we&apos;re so glad.</p>
         </div>
 
         {/* Tercer elemento (ocupa la segunda columna en la segunda fila) */}

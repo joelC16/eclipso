@@ -1,6 +1,4 @@
 "use client"
-import Nav from "@/components/nav";
-import Image from "next/image";
 
 import RegularButton from "./regularButton";
 import { useCounterEffect } from "@/hooks/useTextAnimation";
@@ -8,8 +6,6 @@ import { TiStarburst } from "react-icons/ti";
 import { IoCheckmark } from "react-icons/io5";
 
 export default function Pricing() {
-
-    const { counterRef, count } = useCounterEffect();
 
     return (
         <div id="pricing" className="z-50 w-full min-h-[700px] flex flex-col items-center justify-center pt-[7.5vh] py-[5vh] bg-[#F5F5F5]">

@@ -1,5 +1,4 @@
 "use client"
-import Nav from "@/components/nav";
 import Image from "next/image";
 
 import { TiStarburst } from "react-icons/ti";
