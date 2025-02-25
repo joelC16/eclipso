@@ -1,7 +1,6 @@
 "use client"
 
 import RegularButton from "./regularButton";
-import { useCounterEffect } from "@/hooks/useTextAnimation";
 import { TiStarburst } from "react-icons/ti";
 import { IoCheckmark } from "react-icons/io5";
 
